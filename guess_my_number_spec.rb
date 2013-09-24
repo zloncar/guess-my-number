@@ -4,20 +4,20 @@ describe NumberGuesser do
   let(:player) { NumberGuesser.new }
 
   it 'makes an initial guess between 1 and 100' do
-    pending
+#   pending
     expect(guess).to be <= 100
     expect(guess).to be >= 1
   end
 
   it 'will guess lower' do
-    pending
+#   pending
     first_guess = player.guess
     player.lower
     expect(guess).to be < first_guess
   end
 
   it 'will guess higher' do
-    pending
+#   pending
     first_guess = player.guess
     player.higher
     expect(guess).to be > first_guess
